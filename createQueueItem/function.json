@@ -1,0 +1,19 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req"
+    },
+    {
+      "name" : "outputQueueMessage",
+      "queueName" : "test_queue",
+      "connection" : "SBQueueConnectionString",
+      "accessRights" : "manage",
+      "type" : "serviceBus",
+      "direction" : "out"
+  }
+  ]
+}

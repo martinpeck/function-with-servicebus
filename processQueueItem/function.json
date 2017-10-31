@@ -1,0 +1,13 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "name" : "myQueueItem",
+      "queueName" : "test_queue",
+      "connection" : "SBQueueConnectionString",
+      "accessRights" : "manage",
+      "type" : "serviceBusTrigger",
+      "direction" : "in"
+  }
+  ]
+}
